@@ -33,22 +33,21 @@ def read_video(video_path):
 #     cap.release()
 #     return frames
 
-def save_video(frames, output_path):
+def save_video(frames, output_path, fps=24):
     if not frames:
         print("No frames to save!")
         return
     
-    # Ensure output folder exists
+    
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
     height, width, _ = frames[0].shape
     
-    # Use MP4 codec
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # 'mp4v' works well for .mp4 files
-    
-    out = cv2.VideoWriter(output_path, fourcc, 24, (width, height))
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    out = cv2.VideoWriter(output_path, fourcc, fps, (width, height))
     
     for frame in frames:
         out.write(frame)
     out.release()
-    print(f"Video saved to: {output_path}")
+    print(f"Video saved to: {output_path} at {fps} fps")
+
