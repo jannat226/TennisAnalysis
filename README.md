@@ -58,18 +58,3 @@ You can retrain or fine-tune the models using these Colab notebooks:
 - **Roboflow** (for dataset hosting & model training)
 
 ---
-
-## 📚 Citation
-
-**Project:**
-
-```bibtex
-@misc{TennisAnalysis_project,
-  title       = {Tennis Video Analysis Project},
-  author      = {Anonymous Developer},
-  howpublished= {\url{https://github.com/yourusername/tennis-video-analysis}},
-  url         = {https://github.com/yourusername/tennis-video-analysis},
-  year        = {2025},
-  month       = {June},
-  note        = {Accessed: 2025-06-22}
-}
