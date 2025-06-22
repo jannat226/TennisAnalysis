@@ -4,4 +4,5 @@ dataset -> ball_detector_dataset -> from roboflow -> https://universe.roboflow.c
 
 https://colab.research.google.com/drive/1wml2uztffrBPUbS9ugALbdKk7-BBWdvY?usp=sharing ->tennis_ball_detector_training.ipynb
 
-https://colab.research.google.com/drive/1VTgKZW8DU9mAS-oiRKz0WuVa451rUSi6?usp=sharing ->TennisCourtKeyPoint.ipynb
+https://colab.research.google.com/drive/1VTgKZW8DU9mAS-oiRKz0WuVa451rUSi6?usp=sharing ->TennisCourtKeyPoint  run it and get the model
+
