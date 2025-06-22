@@ -1,0 +1,22 @@
+# Ignore pretrained models
+*.pt
+*.zip
+*.pth
+
+# Ignore virtual environment
+myvenv/
+
+# (Optional) Ignore cache and runs
+runs/
+*.weights
+
+# Ignore dataset files (if you want)
+data/
+training/*.zip
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
